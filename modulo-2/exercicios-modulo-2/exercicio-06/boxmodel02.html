@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        h1 {
+            box-shadow: inset 5px 6px 7px 1px black;
+        }
+        nav {
+            background-color: rgb(78, 78, 78);
+            padding: 5px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.418);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 20px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.418);
+        }
+
+        article {
+            background-color: rgb(219, 219, 219);
+        }
+
+        article > aside {
+            background-color: rgb(138, 138, 138);
+        }
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <h2>COMO FUNCIONA FNAF</h1>
+            <article>
+                <h2>OHOLERA FREDDY FAZBEAR</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum assumenda eos quam aperiam? Nemo voluptatum atque velit excepturi officiis explicabo quos. Culpa reiciendis nostrum ex quas impedit rem nulla eveniet.</p>
+                <aside>
+                    <p>Artigo escreito por AmongUs Sussy</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Arthur Carvalho</p>
+    </footer>
+    <div>bola</div>
+</body>
+</html>
